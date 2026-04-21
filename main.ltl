@@ -1,0 +1,15 @@
+// ltl-regex-vm/main.ltl
+//
+// Thompson NFA regex engine — no backtracking, linear-time.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-regex-vm v0.1.0")
+    io::println("Thompson NFA regex engine — no backtracking, linear-time.")
+    0
+}
